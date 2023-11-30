@@ -10,19 +10,19 @@ let sumEl = document.getElementById("sum-el")
 // Render the result of the calculation in the paragraph with id="sum-el"
 function add() {
     x = num1 + num2
-    sumEl.textContent = "Sum: " + x
+    sumEl.textContent = "Result: " + x
 }
 function subtract() {
     x = num1 - num2
-    sumEl.textContent = "Sum: " + x   
+    sumEl.textContent = "Result: " + x   
 }
 function divide() {
     x = num1 / num2
-    sumEl.textContent = "Sum: " + x
+    sumEl.textContent = "Result: " + x
 }
 function multiply() {
     x = num1 * num2
-    sumEl.textContent = "Sum: " + x
+    sumEl.textContent = "Result: " + x
 }
 // E.g. if the user clicks on the "Plus" button, you should render
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
